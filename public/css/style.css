@@ -1,0 +1,772 @@
+html, .craft-body{
+    height: 100%;
+}
+.craft-main-wrapp{
+    height: auto;
+    min-height: 100%;
+}
+.craft-main-content {
+    padding-bottom: 150px;
+}
+.craft-footer {
+    position: relative;
+    margin-top: -100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.craft-body{
+    color: #1f1f1f;
+}
+
+.craft-header{
+    height: 60px;
+    line-height: 60px;
+    background: #1f1f1f;    
+}
+
+
+
+.header-right-col{
+    text-align: right;
+}
+.change-lang{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.change-lang li{
+    display: inline-block
+}
+.change-lang li a{
+    padding-left: 6px;
+    color: #ff134b;
+    font-size: 13px;
+    transition: 0.3s;
+}
+.change-lang li:not(:last-child) a {
+    border-right: 2px solid #393939;
+    padding-right: 7px;
+}
+.change-lang li a:hover,
+.change-lang li a:focus{
+    color: #fff;
+    text-decoration: none
+}
+.change-lang li.active a{
+    color: #fff;
+    cursor: default;
+    pointer-events: none;
+}
+
+.dropdown-menu_block{
+    position: relative;
+    display: inline-block;
+    min-width: 176px;
+}
+.dropdown-menu_block .dropdown-toggle{
+    display: inline-block;
+    min-width: 176px;
+    margin-left: 57px;
+    padding-left: 15px;
+    background: #2a2a2a;
+}
+.dropdown-menu_block .dropdown-toggle.open{
+    background: #343434;
+}
+.dropdown-menu_avatar{
+    margin-left: 18px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.dropdown-menu_arrow{
+    width: 10px;
+    height: 6px;
+    margin: 0 15px 0 10px;
+}
+.dropdown-toggle{
+    color: #fff
+}
+.dropdown-toggle:hover,
+.dropdown-toggle:focus{
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown-menu{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    min-width: 176px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 30px #3d3d3d;
+    text-align: left;
+    z-index: 1;
+}
+.dropdown-menu li a,
+.dropdown-menu li button{
+    display: block;
+    width: 100%;
+    padding-left: 22px;
+    border: none;
+    background: #fff;
+    color: #1f1f1f;
+    font-size: 13px;
+    text-align: left;
+    outline: none;
+    transition: .3s;
+}
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus,
+.dropdown-menu li button:hover,
+.dropdown-menu li button:focus{
+    background: #eee;
+    text-decoration: none;
+}
+.dropdown-menu li:first-child,
+.dropdown-menu li:last-child{
+    position: relative;
+}
+.dropdown-menu li:first-child{
+    margin-bottom: 4px;
+    padding: 12px 0 7px;
+}
+.dropdown-menu li:last-child{
+    margin-top: 4px;
+    padding: 7px 0 12px;
+}
+.dropdown-menu li:first-child:after,
+.dropdown-menu li:last-child:after{
+    content: "";
+    position: absolute;
+    left: 11px;
+    width: 150px;
+    height: 1px;
+    background: #eee;
+}
+.dropdown-menu li:first-child:after{
+    bottom: 0;
+}
+.dropdown-menu li:last-child:after{
+    top: 0;
+}
+
+
+
+
+.dropdown-menu_block_registration .dropdown-toggle{
+    width: 151px;
+    min-width: auto;
+    margin-left: 82px;
+}
+.dropdown-menu_registration{
+    width: 260px;
+    padding: 27px 16px 23px;
+}
+.dropdown-menu_registration li:first-child{
+    margin-bottom: 22px;
+}
+.dropdown-menu_registration li:first-child,
+.dropdown-menu_registration li:last-child{
+    padding: 0;
+}
+.dropdown-menu_registration li:first-child:after,
+.dropdown-menu_registration li:last-child:after{
+    display: none;
+}
+.dropdown-menu li .dropdown-menu_input{
+    width: 228px;
+    height: 30px;
+    line-height: 28px;
+    padding-left: 11px;
+    background-color: white;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+}
+.dropdown-menu_input::-webkit-input-placeholder{color: #858585;}
+.dropdown-menu_input::-moz-placeholder{color: #858585;}
+.dropdown-menu_input:-moz-placeholder{color: #858585;}
+.dropdown-menu_input:-moz-placeholder{color: #858585;}
+
+.dropdown-menu .dropdown-menu_btn{
+    display: inline-block;
+    width: 74px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 22px;
+    padding: 0;
+    background-color: #1f1f1f;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    transition: .3s;
+}
+.dropdown-menu .dropdown-menu_btn:hover,
+.dropdown-menu .dropdown-menu_btn:focus{
+    background: #616161;
+}
+.dropdown-menu_registration .dropdown-menu_link{
+    display: inline-block;
+    width: auto;
+    color: #ff134b;
+}
+.dropdown-menu_registration .dropdown-menu_link:hover,
+.dropdown-menu_registration .dropdown-menu_link:focus{
+    background: #fff;
+}
+
+
+
+.craft-main-content_top-row{
+    position: relative;
+    padding-bottom: 28px;
+    margin: 38px 0 40px;
+}
+.craft-main-content_top-row:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 100%;
+    height: 16px;
+    background: url(../img/shadow.png) no-repeat center;
+    background-size: 800px;
+}
+.craft-main-content_top-row_photo{
+    display: inline-block;
+    position: relative;
+    width: 402px;
+    height: 402px;
+    margin-right: 15px;
+    border: 1px solid #dedede;
+    text-align: center;
+}
+.craft-main-content_top-row_photo,
+.craft-main-content_top-row_photo:hover,
+.craft-main-content_top-row_photo:focus{
+    outline: none;
+}
+.craft-main-content_top-row_photo img{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.craft-main-content_top-row_description{
+    display: inline-block;
+    width: 704px;
+    vertical-align: top;
+}
+.desription_product-title{
+    margin: 0 0 30px 15px;
+    font-size: 24px;
+}
+.desription_product-blocks{
+    display: inline-block;
+    width: 32.9%;
+    padding-left: 15px;
+    vertical-align: top;
+}
+.desription_product-block{
+    margin-bottom: 5px;
+}
+.desription_product-block_title,
+.desription_product-block_value{
+    display: inline-block;
+    width: 49%;
+}
+.desription_product-block_value.price{
+    font-weight: 600;
+}
+.desription_product-block_title{
+    color: #858585;
+}
+.craft-main-content_top-row_descriptio_text{
+    display: none;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+.craft-main-content_top-row_descriptio_text.loaded{
+    display: block;
+    max-height: 87px;
+    overflow: hidden;
+}
+.craft-main-content_top-row_descriptio_text.open{
+    position: absolute;
+    top: 139px;
+    left: 421px;
+    max-height: 100%;
+    padding-bottom: 25px;
+    box-shadow: 0 0 30px #3d3d3d;
+    background: #fff;
+    overflow: visible;
+    z-index: 9004;
+    transition: .3s;
+}
+.read-more{
+    display: none;
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+    z-index: 1;
+    background: #fff;
+    cursor: pointer;
+}
+.read-more span{
+    color: #ff134b;
+}
+.descr-close{
+    display: none;
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+    z-index: 1;
+    color: #ff134b;
+    cursor: pointer;
+}
+.overlay-for-description{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9003;
+}
+
+
+.craft-main-content_top-row_descriptio_text .desription_product-block_title{
+    display: block;
+}
+
+.craft-main-content_top-row_description_table{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.craft-main-content_top-row_description_table.open-popup{
+    margin-top: 140px;
+}
+
+.craft-main-content_top-row_description_table tr:first-child td{
+    border-top:  1px solid #dedede;
+    padding-top: 20px;
+}
+.table_header td{
+    padding-top: 20px;
+    color: #858585;
+}
+.craft-main-content_top-row_description_table td{
+    padding: 6px 35px;
+}
+.description_table_quantity{
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+.craft-main-content_top-row_description_table td:first-child{
+    padding: 0 10px 0 0;
+}
+.craft-main-content_top-row_description_table td:last-child{
+    width: 100px;
+    padding: 0;
+}
+.description_table_add_button{
+    display: inline-block;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 5px;
+    background: #1f1f1f;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.description_table_add_button:hover{
+    background: #616161;
+}
+
+
+.craft-main-content_bottom-row{
+    padding: 0;
+}
+.craft-main-content_bottom-row_title{
+    display: inline-block;
+    padding-bottom: 5px;
+    margin: 0 0 30px 15px;
+    border-bottom: 2px solid #ff134b;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.craft-main-content_bottom-row_kat{
+    display: inline-block;
+    vertical-align: top;
+    width: 332px;
+    border-right: 1px solid #dedede;
+}
+.craft-main-content_bottom-row_kat_wrapp{
+    width: 332px;
+    height: 530px;
+    overflow: auto;
+    outline: none;
+}
+.craft-main-content_bottom-row_kat_wrapp:hover .jspDrag{
+    background: #d6d6d6;
+}
+.craft-main-content_bottom-row_single-kat{
+    position: relative;
+    width: 303px;
+    padding: 9px 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.craft-main-content_bottom-row_single-kat:hover{
+    background: #eeeeee;
+}
+.craft-main-content_bottom-row_single-kat.active,
+.craft-main-content_bottom-row_single-kat.active:hover{
+    background: #ff134b;
+    color: #fff;
+}
+.craft-main-content_bottom-row_single-kat.active:after{
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -5px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    width: 10px;
+    height: 10px;
+    -webkit-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(-45deg);
+}
+
+
+.craft-main-content_bottom-row_products{
+    display: inline-block;
+    vertical-align: top;
+    width: 348px;
+    border-right: 1px solid #dedede;
+}
+.craft-main-content_bottom-row_products_wrap{
+    width: 348px;
+    height: 530px;
+    overflow: auto;
+    outline: none;
+}
+.craft-main-content_bottom-row_products_wrap:hover .jspDrag{
+    background: #d6d6d6;
+}
+.craft-main-content_bottom-row_products .craft-main-content_bottom-row_title{
+    margin-left: 30px;
+}
+.craft-main-content_bottom-row_products .craft-main-content_bottom-row_title:last-of-type{
+    margin: 0;
+    float: right;
+    margin-right: 40px;
+}
+.craft-main-content_bottom-row_single-product{
+    position: relative;
+    margin-left: 15px;
+    padding: 9px 15px;
+    width: 303px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.craft-main-content_bottom-row_single-product .price{
+    position: absolute;
+    left: 250px;
+}
+.craft-main-content_bottom-row_single-product:hover{
+    background: #eeeeee;
+}
+.craft-main-content_bottom-row_single-product.active,
+.craft-main-content_bottom-row_single-product.active:hover{
+    background: #ff134b;
+    color: #fff;
+}
+
+
+
+.craft-main-content_bottom-row_order{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 482px;
+    padding-left: 30px;
+    max-height: 575px;
+}
+.craft-main-content_bottom-row_order_table{
+    width: 100%;
+    text-align: left;
+}
+.craft-main-content_bottom-row_order_table td{
+    padding: 6px;
+}
+.craft-main-content_bottom-row_order_table td:first-child{
+    padding: 0 10px 0 0;
+}
+.craft-main-content_bottom-row_order_table td:last-child{
+    width: 16px;
+    padding: 0;
+}
+.order_table_quantity{
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+.craft-main-content_bottom-row_order_table td .del-btn{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background: url(../img/del.png) no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    transition: 0.3s;
+}
+.craft-main-content_bottom-row_order_table tr:hover .del-btn{
+    opacity: 1
+}
+
+
+.total-sum_block{
+    border-top: 1px solid #dedede;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-right: 30px;
+    text-align: right;
+}
+.total-sum_title{
+    text-align: left;
+    color: #858585;
+}
+.total-sum_number{
+    font-weight: 600;
+    margin-left: 45px;
+}
+.total-sum_link{
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    width: 130px;
+    margin-top: 20px;
+    border-radius: 3px;
+    text-align: center;
+    background: #1f1f1f;
+    color: #fff;
+    font-size: 12px;
+    transition: .3s;
+}
+.total-sum_link:hover,
+.total-sum_link:focus{
+    background: #616161;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.craft-footer{
+    background: #f3f5f7;
+}
+.footer-info{
+    display: inline-block;
+    margin-left: 35px;
+    color: #858585;
+    font-size: 12px;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.change-lang__footer{
+    display: block;
+    text-align: right;
+}
+.change-lang__footer li a{
+    font-size: 12px;
+    padding-left: 6px;
+}
+.change-lang__footer li:not(:last-child) a {
+    border-right: 2px solid #cbcbcb;
+    padding-right: 6px;
+}
+.change-lang__footer li.active a,
+.change-lang__footer li a:hover{
+    color: #1f1f1f;
+}
+
+
+
+.craft-registration{
+    padding-bottom: 296px;
+}
+.craft-inside_title{
+    display: inline-block;
+    position: relative;
+    margin: 70px 0 134px 122px;
+    padding-left: 23px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.craft-inside_title:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 9px;
+    width: 11px;
+    height: 11px;
+    background: url(../img/arrows.png) no-repeat;
+    background-size: cover;
+}
+.inputs-blocks-margin{
+    margin-bottom: 52px;
+}
+.input-block{
+    margin-bottom: 13px;
+}
+.input-block label{
+    display: inline-block;
+    min-width: 247px;
+    margin-right: 20px;
+    text-align: right;
+    color: #858585;
+    font-size: 14px;
+}
+.registration_right-col .input-block label{
+    min-width: 113px;
+}
+.input-block input,
+.input-block select{
+    width: 252px;
+    height: 30px;
+    padding-left: 11px;
+    background-color: white;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+}
+.input-block input.error{
+    border-color: #ff134b;
+}
+.input-block select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+}
+.craft_select-wrapp{
+    display: inline-block;
+    position: relative;
+    width: 252px;
+    background: url(../img/select-arr.png) no-repeat 95% 50%;
+    background-size: 10px;
+}
+.select-title{
+    display: none;
+}
+.registration_btn{
+    display: inline-block;
+    width: 130px;
+    height: 28px;
+    margin-left: 169px;
+    margin-top: 73px;
+    background-color: #1f1f1f;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+    transition: .3s;
+}
+.registration_btn:hover,
+.registration_btn:focus{
+    background: #616161;
+}
+
+
+
+.craft-profile{
+    padding-bottom: 187px;
+}
+.profile-img_block{
+    padding-left: 122px;
+}
+.profile-img{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+.profile-img img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.profile_upload-photo_label{
+    display: inline-block;
+    width: 140px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1f1f1f;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    transition: .3s;
+}
+.profile_upload-photo_label:hover,
+.profile_upload-photo_label:focus{
+    background: #616161;
+}
+.profile_upload-photo{
+    display: none;
+}
+.craft-profile .registration_btn{
+    margin-left: 134px;
+}
